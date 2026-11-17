@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "hunikdlc1",
+  "version": "${version}",
+  "name": "hunikdlc1",
+  "description": "hunikdlc client",
+  "authors": ["Panda"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.hunikdlc1.HunikDLC"]
+  },
+  "mixins": ["hunikdlc1.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.11"
+  }
+}
